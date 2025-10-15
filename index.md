@@ -102,7 +102,6 @@ These findings can assist policymakers and environmental agencies in prioritizin
 
 ## 👤 Author
 **Ibrahim Mirza**  
-📍 Ottawa, Ontario, Canada  
 📧 mirzaibrahim551@gmail.com  
 
 
