@@ -77,10 +77,11 @@ All data were projected to **WGS 1984 Web Mercator (Auxiliary Sphere)**.
 
 ## 🌐 Published Outputs
 - [Download ArcGIS Pro Project Package (.ppkx)](https://drive.google.com/file/d/1rDM2wYOwI6aSd7hHsR_G7UW-n506B1Cd/view?usp=sharing)
-- [High_Risk_Zones_for_Salmon_Chinook.pdf](https://github.com/user-attachments/files/22897985/High_Risk_Zones_for_Salmon_Chinook.pdf)
-- [High_Risk_Zones_for_Rockfish_Yelloweye.pdf](https://github.com/user-attachments/files/22897984/High_Risk_Zones_for_Rockfish_Yelloweye.pdf)
-- [High_Risk_Zones_for_Bocaccio.pdf](https://github.com/user-attachments/files/22897982/High_Risk_Zones_for_Bocaccio.pdf)
+- [High_Risk_Zones_for_Salmon_Chinook](https://github.com/user-attachments/assets/935f95f7-18f7-4fc1-af5f-79f0ae7fc6a0)
+- [High_Risk_Zones_for_Rockfish_Yelloweye](https://github.com/user-attachments/assets/f37ff00f-c6c0-45a1-9d3d-0b8b2845edc0)
+- [High_Risk_Zones_for_Bocaccio](https://github.com/user-attachments/assets/4ea5cfbc-1e52-488f-8b98-1f0e4ee12d73)
 - [summary table.xls](https://github.com/user-attachments/files/22910347/summary.table.xls)
+
 
 ---
 
