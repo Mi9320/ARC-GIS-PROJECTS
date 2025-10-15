@@ -19,34 +19,30 @@ It is home to **ESA-listed species** and ecologically rich wetlands that are vul
 
 ---
 
-## 🧩 Data Sources
-| Dataset | Source | Description |
-|----------|---------|-------------|
-| Shipping Lanes / Tanker Routes | NOAA Marine Cadastre | Maritime traffic corridors |
-| Wetlands | USGS National Wetlands Inventory (NWI) | Estuarine and freshwater wetlands |
-| Fish Habitat (Chinook, Rockfish, Boccaccio) | NOAA Fisheries / WDFW | Critical and essential fish habitat |
-| Marine Protected Areas | Washington Department of Ecology | Protected coastal zones |
-| Hydrography / DEM | USGS | Contextual reference layers |
+## 🍀 Data Sources
+| Dataset                              | Source                               | Description                      |
+|---------------------------------------|--------------------------------------|----------------------------------|
+| Shipping Lanes / Tanker Routes        | NOAA Marine Cadastre                 | Maritime traffic corridors       |
+| Wetlands                              | USGS National Wetlands Inventory (NWI)| Estuarine and freshwater wetlands|
+| Fish Habitat (Chinook, Rockfish, Boccaccio) | NOAA Fisheries / WDFW              | Critical and essential fish habitat|
+| Marine Protected Areas                | Washington Department of Ecology     | Protected coastal zones          |
+| Hydrography / DEM                     | USGS                                 | Contextual reference layers      |
 
-All data were projected to **NAD 1983 UTM Zone 10N**.
-
----
+All data were projected to **WGS 1984 Web Mercator (Auxiliary Sphere)**.
 
 ## 🧠 Methodology and GIS Tools Used
-| Step | Tool / Process | Purpose |
-|------|----------------|----------|
-| 1 | **Buffer** | Created 2 km buffer around tanker routes to define risk zones |
-| 2 | **Clip** | Extracted layers within Puget Sound boundary |
-| 3 | **Erase** | Removed land portions from buffer to keep only marine areas |
-| 4 | **Intersect** | Identified overlap between 2 km buffer and ecosystem layers |
-| 5 | **Calculate Geometry** | Computed area (km²) of affected features |
-| 6 | **Summary Statistics** | Summarized total risk areas by habitat or species |
-| 7 | **Merge** | Combined summary tables into one unified dataset |
-| 8 | **Layout View** | Designed thematic maps with titles, legends, and scale bars |
-| 9 | **Inset Map** | Added zoomed-out locator map for regional context |
-| 10 | **Share as Web Map** | Published final results to ArcGIS Online and StoryMaps |
-
----
+| Step | Tool / Process           | Purpose                                                     |
+|------|-------------------------|-------------------------------------------------------------|
+| 1    | **Buffer**              | Created 2 km buffer around tanker routes to define risk zones|
+| 2    | **Clip**                | Extracted layers within Puget Sound boundary                |
+| 3    | **Erase**               | Removed land portions from buffer to keep only marine areas |
+| 4    | **Intersect**           | Identified overlap between 2 km buffer and ecosystem layers |
+| 5    | **Calculate Geometry**  | Computed area (km²) of affected features                   |
+| 6    | **Summary Statistics**  | Summarized total risk areas by habitat or species           |
+| 7    | **Merge**               | Combined summary tables into one unified dataset            |
+| 8    | **Layout View**         | Designed thematic maps with titles, legends, and scale bars |
+| 9    | **Inset Map**           | Added zoomed-out locator map for regional context           |
+| 10   | **Share as Web Map**    | Published final results to ArcGIS Online and StoryMaps      |
 
 ## 📊 Results
 - Generated **2 km oil spill risk zone** along all tanker routes.  
