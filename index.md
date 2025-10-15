@@ -20,11 +20,12 @@ It is home to **ESA-listed species** and ecologically rich wetlands that are vul
 ---
 
 ## 🍀 Data Sources
+
 | Dataset                            | Source                             | Description                      |
 |----------------------------------|----------------------------------|--------------------------------|
-| Shipping Lanes / Tanker Routes    | NOAA Marine Cadastre             | Maritime traffic corridors       |
-| Wetlands                         | USGS National Wetlands Inventory (NWI) | Estuarine and freshwater wetlands |
-| Fish Habitat (Chinook, Rockfish, Boccaccio) | NOAA Fisheries / WDFW            | Critical and essential fish habitat |
+| Shipping Lanes / Tanker Routes    | NOAA Marine Cadastre| Maritime traffic corridors       |
+| Wetlands | USGS National Wetlands Inventory (NWI) | Estuarine and freshwater wetlands |
+| Fish Habitat (Chinook, Rockfish, Boccaccio) | NOAA Fisheries / WDFW | Critical and essential fish habitat |
 | Marine Protected Areas            | Washington Department of Ecology | Protected coastal zones          |
 | Hydrography / DEM                 | USGS                            | Contextual reference layers      |
 
@@ -32,8 +33,9 @@ It is home to **ESA-listed species** and ecologically rich wetlands that are vul
 All data were projected to **WGS 1984 Web Mercator (Auxiliary Sphere)**.
 
 ## 🧠 Methodology and GIS Tools Used
+
 | Step | Tool / Process         | Purpose                                                      |
-|------|-----------------------|--------------------------------------------------------------|
+|------|----------------------- |--------------------------------------------------------------|
 | 1    | Buffer                | Created 2 km buffer around tanker routes to define risk zones |
 | 2    | Clip                  | Extracted layers within Puget Sound boundary                  |
 | 3    | Erase                 | Removed land portions from buffer to keep only marine areas   |
